@@ -1,0 +1,47 @@
+CLANKERCROSS MADNESS 0.2.0 — RELEASE VALIDATION
+
+Windows x86_64 executable with embedded game assets.
+Engine: Godot 4.7.2 / Jolt / Forward+ Vulkan.
+Executable SHA-256: 2da11d2bf4321cb04ac1170a0104c5cb43bc4130e3422a9df416a7a679660d72
+
+PASS — 87 mechanics checks across all three maps.
+Covered: brand/assets, safe checkpoint placement, zero/lunar/Earth gravity,
+unlimited sandbox boost, limited zombie boost, friction, super hops, pinball
+landings, shallow-water riding, deep-water wipeouts, rain/snow, day/night,
+foot/bike populations, run-overs, grabs, jump/speed shake-off, overrun loss,
+checkpoint finish, escalation and replenishment.
+
+PASS — keyboard/controller menu and boost tests, rebinding, gravity slider,
+map selection/reload, settings persistence, pause, focus loss and disconnect.
+These are in-engine input-event tests. The earlier physical controller session
+validated the base riding controls; new release controls were tested with
+synthetic keyboard/gamepad events, not a second full physical-controller session.
+
+PASS — rendered handling tests at 30, 60 and 144 FPS caps; jump and steering
+positions matched across caps. Four air-control direction tests passed.
+
+PASS — 20 minutes of automated packaged operation in four five-minute runs.
+The executable hash stayed unchanged. All processes exited with code 0.
+There were no script errors or runtime warnings in the completed test logs.
+Zombie runs used 240 foot zombies and 26 bike riders. Rider wipeouts and lost
+escape attempts are expected game outcomes and were retried during the test.
+
+TEST PC AND FRAME TIMINGS
+NVIDIA GeForce GTX 1060 6GB / Intel Core i5-4690K / 16GB RAM.
+1920 x 1080 internal rendering, medium detail, 60 FPS cap.
+Audio output was muted with the engine's Dummy driver during the long runs.
+Weather and time-of-day settings differed between runs.
+
+sandbox-desert        59.45 FPS   p95  16.98 ms    302.62 s
+escape-forest         59.56 FPS   p95  19.75 ms    302.10 s
+escape-highlands      59.48 FPS   p95  19.56 ms    302.42 s
+escape-badlands       59.56 FPS   p95  19.41 ms    302.11 s
+
+These are automated stability/performance runs, not 20 minutes of manual play.
+Checkpoint win/loss and other mechanics also have separate controlled fixture
+tests. The included gameplay preview is captured by the engine and is not a
+frame-rate measurement. This is an unsigned Windows build.
+
+DISTRIBUTION
+Only the executable, controls, credits, license notices, validation summary and
+binary manifest are packaged. The editable project and source are not released.

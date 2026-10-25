@@ -1,12 +1,13 @@
 CLANKERCROSS MADNESS — CREDITS
 
 Game design, procedural bike/rider/zombie models, environment geometry,
-vehicle physics, crowd simulation, interface and synthesized audio were
+race tracks, CPU rivals, flags, spectators, vehicle physics, crowd simulation,
+interface and synthesized audio were
 created for Clankercross Madness.
 
 Generated visual assets
-Layered sandstone, woodland ground, alpine snow/ice, technical rider fabric
-and transparent pine foliage were created with the built-in ImageGen tool.
+Layered sandstone, woodland ground, alpine snow/ice, technical rider fabric,
+rutted race dirt and transparent pine foliage were created with the built-in ImageGen tool.
 They are used in the game's terrain, character and vegetation materials.
 
 Additional ground detail

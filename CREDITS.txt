@@ -1,0 +1,22 @@
+CLANKERCROSS MADNESS — CREDITS
+
+Game design, procedural bike/rider/zombie models, environment geometry,
+vehicle physics, crowd simulation, interface and synthesized audio were
+created for Clankercross Madness.
+
+Generated visual assets
+Layered sandstone, woodland ground, alpine snow/ice, technical rider fabric
+and transparent pine foliage were created with the built-in ImageGen tool.
+They are used in the game's terrain, character and vegetation materials.
+
+Additional ground detail
+Sandy Gravel 02 — Dario Barresi / Poly Haven.
+https://polyhaven.com/a/sandy_gravel_02
+Used under CC0 1.0 Universal. License: https://polyhaven.com/license
+
+Engine
+Godot Engine 4.7.2, with Jolt physics and the engine's built-in font and
+rendering components. Full engine and component license notices accompany
+the download in THIRD_PARTY_NOTICES.txt.
+
+The game uses original branding and no extracted assets from Motocross Madness.

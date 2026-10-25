@@ -1,0 +1,54 @@
+CLANKERCROSS MADNESS 0.2.0
+
+Extract the Windows ZIP and run ClankercrossMadness.exe.
+The game is single-player, offline, and requires no installation or account.
+
+KEYBOARD / CONTROLLER
+Throttle              W / Right trigger
+Brake, then reverse   S / Left trigger
+Steer                 A,D / Left stick
+Lean and air control  Arrow keys / Right stick
+Trick modifier        Space / A
+Nitrous boost         Shift / B
+Hop                   Q / X
+Recover or remount    R / Y
+Look around           Hold right mouse, or C + arrows / RB + right stick
+Eject (sandbox)       V / LB
+Pause                 Escape / Start
+Menus                 Arrows and Enter / D-pad or left stick and A
+Back in menus         Escape / B
+
+SANDBOX
+Choose a world, then start Sandbox. All terrain is accessible immediately.
+World & sandbox settings contains weather, time of day, the day/night cycle,
+gravity, tire grip, super hops and pinball landings. Nitrous is unlimited.
+Zero G works best with boost and lean controls. Eject the rider for a ragdoll
+flight, then recover. R/Y recovers to clear ground; the pause menu can return
+you to camp. Shallow water adds drag and spray. Deep water causes a wipeout.
+
+TRICKS
+Hold Trick + left/right lean for a whip, forward for a no-hander, or back
+for a tabletop. Lean in the air without Trick to rotate into flips.
+Release the controls before landing for gentle leveling assistance.
+
+ZOMBIE ESCAPE
+Pass seven checkpoint gates and the finish gate. The arrow and distance at
+the top of the screen point toward the next gate. Watch the run-over counter
+and grabber count. Six grabbers end the run. Jump or accelerate hard to
+dislodge them. Foot zombies and bike riders replenish, and checkpoint progress
+brings more enemies.
+
+Boost has a limited reserve and recharges while released. Hops use the same
+reserve, so keep some available for escaping grabbers. R/Y remounts after an
+ordinary riding wipeout; attached zombies remain until shaken off. Deep water
+ends the attempt. Retry from the result screen or pause menu.
+
+WORLD AND DISPLAY
+Redstone Badlands, Pinebreak Forest and Frostbite Highlands have distinct
+terrain, vegetation and water hazards. Weather choices are Auto, Clear,
+Rain, Thunderstorm and Snow. The day/night cycle lasts 12 minutes. Headlights
+brighten automatically after dark. Graphics & sound includes detail level,
+fullscreen, sound, camera shake, speed field of view and frame cap.
+
+Settings are saved locally. There are no accounts, online leaderboards,
+microtransactions or external services.

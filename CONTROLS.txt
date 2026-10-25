@@ -1,4 +1,4 @@
-CLANKERCROSS MADNESS 0.2.0
+CLANKERCROSS MADNESS 0.3.0
 
 Extract the Windows ZIP and run ClankercrossMadness.exe.
 The game is single-player, offline, and requires no installation or account.
@@ -26,6 +26,22 @@ Zero G works best with boost and lean controls. Eject the rider for a ragdoll
 flight, then recover. R/Y recovers to clear ground; the pause menu can return
 you to camp. Shallow water adds drag and spray. Deep water causes a wipeout.
 
+RACES AND TIME TRIALS
+Choose a world, then Race & Time Trial. Each world has two courses.
+Choose Club riders, Challengers or Experts, then start a three-lap race
+against five CPU riders. Pass all 16 numbered gates in order. The route map
+shows the next gate in yellow, opponents in their colors, and you in white.
+
+R/Y returns you to the last passed gate with a five-second wait. The race
+clock keeps running. You briefly pass through rivals while rejoining.
+Wrong-way and missed-gate guidance appears below the riding view.
+Nitrous recharges; gravity and grip use the normal riding rules. Weather
+still affects traction. Pause offers a restart.
+
+Time Trial runs one lap without opponents. Best lap, race and trial times
+are stored locally. Free Ride This Track starts unlimited sandbox riding
+at the selected course. There are no unlocks or required races.
+
 TRICKS
 Hold Trick + left/right lean for a whip, forward for a no-hander, or back
 for a tabletop. Lean in the air without Trick to rotate into flips.
@@ -48,7 +64,7 @@ Redstone Badlands, Pinebreak Forest and Frostbite Highlands have distinct
 terrain, vegetation and water hazards. Weather choices are Auto, Clear,
 Rain, Thunderstorm and Snow. The day/night cycle lasts 12 minutes. Headlights
 brighten automatically after dark. Graphics & sound includes detail level,
-fullscreen, sound, camera shake, speed field of view and frame cap.
+fullscreen, sound, camera shake, speed field of view, route map and frame cap.
 
-Settings are saved locally. There are no accounts, online leaderboards,
+Settings and personal best times are saved locally. There are no accounts, online leaderboards,
 microtransactions or external services.

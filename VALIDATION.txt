@@ -1,47 +1,63 @@
-CLANKERCROSS MADNESS 0.2.0 — RELEASE VALIDATION
+CLANKERCROSS MADNESS 0.3.0 — RELEASE VALIDATION
 
-Windows x86_64 executable with embedded game assets.
-Engine: Godot 4.7.2 / Jolt / Forward+ Vulkan.
-Executable SHA-256: 2da11d2bf4321cb04ac1170a0104c5cb43bc4130e3422a9df416a7a679660d72
+Windows x86_64; Godot 4.7.2; Jolt physics at 120 Hz; Forward+ Vulkan.
+Executable SHA-256: 91898886e87d0ef506c30d23395739d3bd538442f23f0046f5355e8298726717
 
-PASS — 87 mechanics checks across all three maps.
-Covered: brand/assets, safe checkpoint placement, zero/lunar/Earth gravity,
-unlimited sandbox boost, limited zombie boost, friction, super hops, pinball
-landings, shallow-water riding, deep-water wipeouts, rain/snow, day/night,
-foot/bike populations, run-overs, grabs, jump/speed shake-off, overrun loss,
-checkpoint finish, escalation and replenishment.
+PASS — 147 controlled mechanics checks across three maps.
+Sandbox boost/gravity/grip/hops/pinball; shallow and deep water; weather and
+lighting; zombie populations, run-overs, grabs, shake-off, checkpoint finish,
+escalation and replenishment; unique grab positions; track clearance;
+race grid, countdown, normal race physics, ordered gates, reverse/shortcut
+rejection, recovery penalty and collision grace, finish flow, solo trial,
+personal-best persistence, and leaving a race without a frozen bike.
 
-PASS — keyboard/controller menu and boost tests, rebinding, gravity slider,
-map selection/reload, settings persistence, pause, focus loss and disconnect.
-These are in-engine input-event tests. The earlier physical controller session
-validated the base riding controls; new release controls were tested with
-synthetic keyboard/gamepad events, not a second full physical-controller session.
+PASS — all five CPU riders completed three laps on all six courses.
+These were actual physics-controlled rides, without teleporting through gates.
+Controlled rule fixtures were tested separately. No CPU crashes or automatic
+recoveries occurred during the six course-completion runs.
 
-PASS — rendered handling tests at 30, 60 and 144 FPS caps; jump and steering
-positions matched across caps. Four air-control direction tests passed.
+Redstone MX         5/5 finished   99.11-107.87s
+Mesa Run            5/5 finished  155.49-166.53s
+Timberline MX       5/5 finished   99.82-108.48s
+Cedar Circuit       5/5 finished  157.82-167.54s
+Snowcap MX          5/5 finished  102.58-110.94s
+Glacier Run         5/5 finished  158.57-169.73s
 
-PASS — 20 minutes of automated packaged operation in four five-minute runs.
-The executable hash stayed unchanged. All processes exited with code 0.
-There were no script errors or runtime warnings in the completed test logs.
-Zombie runs used 240 foot zombies and 26 bike riders. Rider wipeouts and lost
-escape attempts are expected game outcomes and were retried during the test.
+PASS — 27 keyboard/controller menu and input-event checks.
+Includes race/time-trial selection, pause/resume, rebinding, settings,
+map reload, focus loss and controller disconnection. New controller flows
+were tested with synthetic input events. A physical controller was not
+connected for this release's test; the earlier base game had a physical
+controller check confirmed by the player.
 
-TEST PC AND FRAME TIMINGS
-NVIDIA GeForce GTX 1060 6GB / Intel Core i5-4690K / 16GB RAM.
+PASS — riding at 30, 60 and 144 FPS rendering caps.
+The controlled jump measured 52.332 metres at each cap; steering trajectories
+matched. Four airborne control-direction checks passed.
+
+PASS — one continuous 1200.01-second packaged session.
+The same executable ran all six courses, switched between three maps, and
+exercised rain, storm, snow, night riding, Zombie Escape and sandbox.
+Completed races during this mixed session: 6.
+Maximum horde: 266 actors (240 on foot, 26 on bikes).
+The process exited normally and its executable hash remained unchanged.
+Completed candidate logs contain no script errors or runtime warnings.
+
+FRAME TIMINGS
+GTX 1060 6GB / i5-4690K / 16GB RAM.
 1920 x 1080 internal rendering, medium detail, 60 FPS cap.
-Audio output was muted with the engine's Dummy driver during the long runs.
-Weather and time-of-day settings differed between runs.
+Average: 59.70 FPS (16.750 ms/frame).
+95th percentile: 17.175 ms. 99th percentile: 19.204 ms.
+Frame samples exclude initial warmup and map-loading intervals.
+The engine's static-memory counter was unavailable in this release build.
+Audio output was muted through the Dummy driver during the long run.
+Menu/handling tests used normal audio output; rival audio is in the preview.
 
-sandbox-desert        59.45 FPS   p95  16.98 ms    302.62 s
-escape-forest         59.56 FPS   p95  19.75 ms    302.10 s
-escape-highlands      59.48 FPS   p95  19.56 ms    302.42 s
-escape-badlands       59.56 FPS   p95  19.41 ms    302.11 s
-
-These are automated stability/performance runs, not 20 minutes of manual play.
-Checkpoint win/loss and other mechanics also have separate controlled fixture
-tests. The included gameplay preview is captured by the engine and is not a
-frame-rate measurement. This is an unsigned Windows build.
+The long session used an automated rider. It is a stability/performance test,
+not a claim of 20 minutes of manual play. The gameplay video is recorded by
+the engine at a fixed capture rate and is not a frame-rate benchmark.
+This portable Windows executable is unsigned.
 
 DISTRIBUTION
-Only the executable, controls, credits, license notices, validation summary and
-binary manifest are packaged. The editable project and source are not released.
+The ZIP contains the executable with embedded assets, controls, credits,
+third-party notices, this report and a binary manifest. The editable source
+project, source files and development history are not published.

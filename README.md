@@ -1,12 +1,28 @@
 # Clankercross Madness
 
-A Windows motocross game with three open riding worlds, a physics playground, and a zombie escape mode.
+A Windows motocross game with three open riding worlds, six race courses, CPU opponents, a physics playground, and a zombie escape mode.
 
 ![Clankercross Madness gameplay](preview.png)
 
 ## Download
 
 [Get the latest Windows release](https://github.com/n30nex/Clankercross-Madness/releases/latest). Extract the ZIP and run **ClankercrossMadness.exe**. The game is single-player and works offline.
+
+## New in 0.3.0
+
+- Two marked circuits in each world, with five CPU rivals and three difficulty settings.
+- Three-lap races, a starting grid and countdown, live position and lap times, ordered gates, and results.
+- Solo time trials, local personal bests, and a route map.
+- Generated race-dirt material, waving track flags, cheering spectators, rival engine sounds and dust, tire trails, and forest fireflies after dark.
+- Moving handlebars and forks, rider crouch and lean animation, and improved recovery and zombie navigation.
+
+| World | Courses |
+|---|---|
+| Redstone Badlands | Redstone MX · Mesa Run |
+| Pinebreak Forest | Timberline MX · Cedar Circuit |
+| Frostbite Highlands | Snowcap MX · Glacier Run |
+
+Select **Race & Time Trial** after choosing a world. In a race, **R / Y** rejoins the last passed gate with a five-second wait. Time Trial is a single lap. Best times stay on your PC. **Free Ride This Track** starts sandbox play on the selected course.
 
 ## Ride your way
 
